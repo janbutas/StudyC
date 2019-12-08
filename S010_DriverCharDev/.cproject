@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.339224492">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.339224492" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="S011_DriverCharDev" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.339224492" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.339224492.1487275670" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.744370619" name="cdt.managedbuild.toolchain.gnu.base" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.542907443" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1745038531" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.2129754785" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1393419490" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.2040586361" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.1573168425" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/include"/>
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/arch/x86/include"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.276690465" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLOCK"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.673092201" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.540025829" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.631899624" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.74984772" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.1456393277" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1035497340" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.339224492.905870481">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.339224492.905870481" moduleId="org.eclipse.cdt.core.settings" name="load">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="S011_DriverCharDev" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.339224492.905870481" name="load" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.339224492.905870481." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.452249948" name="cdt.managedbuild.toolchain.gnu.base" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.859421869" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/S011_DriverCharDev/}" enableAutoBuild="false" enableCleanBuild="false" enabledIncrementalBuild="true" id="cdt.managedbuild.target.gnu.builder.base.147584732" incrementalBuildTarget="load" keepEnvironmentInBuildfile="true" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.334122709" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1667499321" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1262152790" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.1799964805" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/include"/>
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/arch/x86/include"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1157599306" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLOCK"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1613820776" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1805247055" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1536299937" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1738599198" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.222477126" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.230839533" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.339224492.1145161800">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.339224492.1145161800" moduleId="org.eclipse.cdt.core.settings" name="unload">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="S011_DriverCharDev" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.339224492.1145161800" name="unload" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.339224492.1145161800." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.1068576916" name="cdt.managedbuild.toolchain.gnu.base" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.722175803" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder arguments="make print" command="sudo" enableCleanBuild="false" enabledIncrementalBuild="false" id="cdt.managedbuild.target.gnu.builder.base.1964391830" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1230355967" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.138285206" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.821831578" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.525221364" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/include"/>
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/arch/x86/include"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1786888572" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLOCK"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2108699251" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1581856395" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1557849563" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1177964873" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.588810875" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1075022252" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.339224492.2090836789">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.339224492.2090836789" moduleId="org.eclipse.cdt.core.settings" name="print">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="S011_DriverCharDev" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.339224492.2090836789" name="print" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.339224492.2090836789." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.1064355387" name="cdt.managedbuild.toolchain.gnu.base" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.1532431930" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder enableCleanBuild="false" enabledIncrementalBuild="true" id="cdt.managedbuild.target.gnu.builder.base.65371345" incrementalBuildTarget="print" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.808400762" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.653043979" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.331413776" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.546761897" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/include"/>
+									<listOptionValue builtIn="false" value="/usr/src/linux-headers-3.8.0-31-generic/arch/x86/include"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.534115011" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__KERNEL__=1"/>
+									<listOptionValue builtIn="false" value="CONFIG_BLOCK"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1816710896" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.321144369" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.892966750" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1809051599" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.277145711" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.350843813" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="S011_DriverCharDev.null.210650966" name="S011_DriverCharDev"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/S011_DriverCharDev"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="load" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>load</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.339224492;cdt.managedbuild.toolchain.gnu.base.339224492.1487275670;cdt.managedbuild.tool.gnu.c.compiler.base.2040586361;cdt.managedbuild.tool.gnu.c.compiler.input.673092201">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.339224492;cdt.managedbuild.toolchain.gnu.base.339224492.437606057;cdt.managedbuild.tool.gnu.c.compiler.base.2040586361.1935705393;cdt.managedbuild.tool.gnu.c.compiler.input.2114439208">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.339224492.905870481;cdt.managedbuild.toolchain.gnu.base.339224492.905870481.;cdt.managedbuild.tool.gnu.c.compiler.base.1262152790;cdt.managedbuild.tool.gnu.c.compiler.input.1613820776">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
